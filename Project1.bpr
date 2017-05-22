@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="fqb60.lib fsDB6.lib frxDB6.lib fs6.lib frx6.lib bdertl.lib adortl.lib 
+      crcontrols60.lib vclx.lib vcldb.lib SUIPackC6.lib odac60.lib dac60.lib 
+      dbrtl.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib dac60.lib odac60.lib SUIPackC6.lib vcldb.lib 
+      vclx.lib crcontrols60.lib adortl.lib bdertl.lib frx6.lib fs6.lib 
+      frxDB6.lib fsDB6.lib fqb60.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi dacvcl60.bpi dac60.bpi odac60.bpi odacvcl60.bpi 
+      oraprov60.bpi crcontrols60.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="C:\CBuilder\Borland\CBuilder6\Projects;C:\Users\Administrator\Desktop\Excel合并;D:\CBuilder\Borland\CBuilder6\Bin;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;lrjm;&quot;D:\ODAC for CBuilder 6\Include&quot;;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;&quot;D:\ODAC for CBuilder 6\Source&quot;;&quot;D:\ODAC for CBuilder 6\Lib&quot;;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;&quot;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include&quot;;&quot;D:\C++ Builder\FR_4_7_9\FR4_7\Source&quot;;&quot;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript&quot;;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;&quot;D:\CBuilder\插件\ODAC for CBuilder 6\Include&quot;;&quot;D:\CBuilder\插件\ODAC for CBuilder 6&quot;;D:\CBuilder\Borland\CBuilder6"/>
+    <LIBPATH value="C:\CBuilder\Borland\CBuilder6\Projects;C:\Users\Administrator\Desktop\Excel合并;&quot;D:\CBuilder\插件\ODAC for CBuilder 6\Include&quot;;D:\CBuilder\Borland\CBuilder6\Bin;lrjm;&quot;D:\ODAC for CBuilder 6\Include&quot;;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;&quot;D:\ODAC for CBuilder 6\Source&quot;;&quot;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source&quot;;&quot;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript&quot;;&quot;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source&quot;;&quot;D:\C++ Builder\FR_4_7_9\FR4_7\Source&quot;;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;&quot;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source&quot;;&quot;D:\CBuilder\插件\ODAC for CBuilder 6\Source&quot;;D:\CBuilder\Borland\CBuilder6"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IC:\CBuilder\Borland\CBuilder6\Projects 
+      -IC:\Users\Administrator\Desktop\Excel合并 
+      -ID:\CBuilder\Borland\CBuilder6\Bin 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -Ilrjm 
+      -I&quot;D:\ODAC for CBuilder 6\Include&quot; -Icount -IdataMan -IsystemSet 
+      -I$(BCB)\include -I$(BCB)\include\vcl 
+      -ID:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source 
+      -ID:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6 
+      -I&quot;D:\ODAC for CBuilder 6\Source&quot; -I&quot;D:\ODAC for CBuilder 6\Lib&quot; 
+      -IF:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source 
+      -IF:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript 
+      -I&quot;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include&quot; 
+      -I&quot;D:\C++ Builder\FR_4_7_9\FR4_7\Source&quot; 
+      -I&quot;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript&quot; 
+      -ID:\CBuilder\插件\FR4_7\FastScript -ID:\CBuilder\插件\FR4_7\Source 
+      -ID:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6 
+      -I&quot;D:\CBuilder\插件\ODAC for CBuilder 6\Include&quot; 
+      -I&quot;D:\CBuilder\插件\ODAC for CBuilder 6&quot; -ID:\CBuilder\Borland\CBuilder6 
+      -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+C:\CBuilder\Borland\CBuilder6\Bin\dcloraprov60.bpl=OraProvider package
+
+[HistoryLists\hlIncludePath]
+Count=30
+Item0=C:\CBuilder\Borland\CBuilder6\Projects;C:\Users\Administrator\Desktop\Excel合并;D:\CBuilder\Borland\CBuilder6\Bin;C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\插件\ODAC for CBuilder 6;D:\CBuilder\Borland\CBuilder6
+Item1=D:\CBuilder\Borland\CBuilder6\Bin;C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\插件\ODAC for CBuilder 6;D:\CBuilder\Borland\CBuilder6
+Item2=D:\CBuilder\Borland\CBuilder6\Bin;C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\插件\ODAC for CBuilder 6
+Item3=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\插件\ODAC for CBuilder 6
+Item4=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\C++ Builder\FR_4_7_9\FR4_7\FastScript
+Item5=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;D:\C++ Builder\FR_4_7_9\FR4_7\Source
+Item6=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include
+Item7=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript
+Item8=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\Source;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Include\BCB6;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Source;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Lib;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Include\BCB6;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\插件\ODAC for CBuilder 6
+Item9=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\Source;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Include\BCB6;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Source;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Include;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Lib
+Item10=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib
+Item11=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib
+Item12=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2\Source;D:\Sunisoft.SUIPack.v6.2\Include\BCB6;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Lib
+Item13=lrjm;D:\ODAC for CBuilder 6\Include;C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\Devart\ODAC for CBuilder 6\Source;D:\Devart\ODAC for CBuilder 6\Include
+Item14=D:\ODAC for CBuilder 6\Include;C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\Devart\ODAC for CBuilder 6\Source;D:\Devart\ODAC for CBuilder 6\Include
+Item15=C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\Devart\ODAC for CBuilder 6\Source;D:\Devart\ODAC for CBuilder 6\Include
+Item16=C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript
+Item17=count;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript
+Item18=count;D:\Borland\CBuilder6\Projects;dataMan;systemSet;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\FastReport 4\LibBCB6
+Item19=count;D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6;D:\FR_4_7_9\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR_4_7_9\FR4_7\FastScript
+Item20=count;D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6
+Item21=D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6
+Item22=dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Include\BCB6
+Item23=dataMan;..\..\test\对话框缩放;C:\Program Files\Devart\ODAC for CBuilder 6\Include;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6
+Item24=C:\Program Files\Devart\ODAC for CBuilder 6\Include;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6
+Item25=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6
+Item26=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\ODAC\Source;D:\Program Files\Borland\ODAC\Source\CBuilder6
+Item27=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\ODAC\Source
+Item28=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;E:\Jun\workspace\海量\4.0.0.0;$(BCB)\include;$(BCB)\include\vcl;D:\MakeDM\SUIPack.v5.8.Full.Source.Delphi.BCB\Include\BCB6;D:\SoftWare\suipack-cb6皮肤\suipack\Include\BCB6;D:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;C:\Program Files\Devart\ODAC for CBuilder 6\Include;E:\FR4_7\Source;E:\FR4_7\FastScript
+Item29=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;E:\Jun\workspace\海量\4.0.0.0;$(BCB)\include;$(BCB)\include\vcl;D:\MakeDM\SUIPack.v5.8.Full.Source.Delphi.BCB\Include\BCB6;D:\SoftWare\suipack-cb6皮肤\suipack\Include\BCB6;D:\Sunisoft.SUIPack.v6.2\Include\BCB6;E:\Sunisoft.SUIPack.v6.2\Include\BCB6;C:\Program Files\Devart\ODAC for CBuilder 6\Include
+
+[HistoryLists\hlLibraryPath]
+Count=30
+Item0=C:\CBuilder\Borland\CBuilder6\Projects;C:\Users\Administrator\Desktop\Excel合并;D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\Borland\CBuilder6\Bin;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source;D:\CBuilder\插件\ODAC for CBuilder 6\Source;D:\CBuilder\Borland\CBuilder6
+Item1=D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\Borland\CBuilder6\Bin;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source;D:\CBuilder\插件\ODAC for CBuilder 6\Source;D:\CBuilder\Borland\CBuilder6
+Item2=D:\CBuilder\插件\ODAC for CBuilder 6\Include;D:\CBuilder\Borland\CBuilder6\Bin;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source;D:\CBuilder\插件\ODAC for CBuilder 6\Source
+Item3=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\C++ Builder\FR_4_7_9\FR4_7\Source;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source;D:\CBuilder\插件\ODAC for CBuilder 6\Source
+Item4=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\C++ Builder\FR_4_7_9\FR4_7\Source
+Item5=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source
+Item6=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\Source;F:\工作区\2016任雅晴工作\software\c++builder\FR_4_7_9\FR4_7\FastScript
+Item7=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\Source;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Source;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source;D:\CBuilder\插件\FR4_7\FastScript;D:\CBuilder\插件\FR4_7\Source;D:\CBuilder\插件\SUIPack.v6.2-CB6皮肤\Source;D:\CBuilder\插件\ODAC for CBuilder 6\Source
+Item8=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\FastScript;C:\Program Files (x86)\Borland\FR_4_7_9\FR_4_7_9\FR4_7\Source;C:\SoftWare\SUIPack.v6.2_cb6皮肤\Source;C:\Program Files (x86)\Devart\ODAC for CBuilder 6\Source
+Item9=C:\Program Files\Borland\CBuilder6\Projects;lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source
+Item10=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\ODAC for CBuilder 6\Source
+Item11=lrjm;D:\ODAC for CBuilder 6\Include;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR4_7\Source;D:\FR4_7\FastScript;D:\Sunisoft.SUIPack.v6.2\Source;D:\ODAC for CBuilder 6\Source
+Item12=lrjm;D:\ODAC for CBuilder 6\Include;C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Devart\ODAC for CBuilder 6\Include;D:\Devart\ODAC for CBuilder 6\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR4_7\Source;D:\FR4_7\FastScript
+Item13=D:\ODAC for CBuilder 6\Include;C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Devart\ODAC for CBuilder 6\Include;D:\Devart\ODAC for CBuilder 6\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR4_7\Source;D:\FR4_7\FastScript
+Item14=C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Devart\ODAC for CBuilder 6\Include;D:\Devart\ODAC for CBuilder 6\Source;D:\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR4_7\Source;D:\FR4_7\FastScript
+Item15=C:\Program Files\Borland\CBuilder6\Projects;count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript
+Item16=count;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript
+Item17=count;D:\Borland\CBuilder6\Projects;dataMan;systemSet;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FastReport 4\LibBCB6
+Item18=count;D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\SUIPack.v6.2-cb6皮肤(新)\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source;D:\FR_4_7_9\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR_4_7_9\FR4_7\FastScript
+Item19=count;D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source
+Item20=D:\Borland\CBuilder6\Projects;D:\test\对话框缩放;dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source
+Item21=dataMan;systemSet;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\FR_4_7_9\FR4_7\Source;D:\FR_4_7_9\FR4_7\FastScript;D:\ODAC for CBuilder 6\Source;D:\ODAC for CBuilder 6\Include;D:\SUIPack.v6.2-cb6皮肤(新)1\Sunisoft.SUIPack.v6.2.Full.Source.Delphi.BCB.ccrun\Source
+Item22=dataMan;..\..\test\对话框缩放;C:\Program Files\Devart\ODAC for CBuilder 6\Include;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source
+Item23=C:\Program Files\Devart\ODAC for CBuilder 6\Include;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source
+Item24=D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source
+Item25=D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\ODAC\Source;D:\Program Files\Borland\ODAC\Source\CBuilder6
+Item26=D:\Program Files\Borland\DevArt+ODAC.814\odac81src\ODAC\Source\CBuilder6;systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\ODAC\Source
+Item27=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\Sunisoft.SUIPack.v6.2\Source;E:\FR4_7\Source;E:\FR4_7\FastScript;D:\Program Files\Borland\ODAC\Source
+Item28=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;C:\Program Files\Devart\ODAC for CBuilder 6\Include;$(BCB)\lib\obj;$(BCB)\lib;D:\Sunisoft.SUIPack.v6.2\Source;E:\Sunisoft.SUIPack.v6.2\Source;C:\Program Files\Devart\ODAC for CBuilder 6\Lib;E:\FR4_7\Source;E:\FR4_7\FastScript
+Item29=systemSet;C:\Users\Administrator.USERSWO-2F9LB59\Desktop\新建文件夹;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;E:\Jun\workspace\海量\4.0.0.0;C:\Program Files\Devart\ODAC for CBuilder 6\Include;$(BCB)\lib\obj;$(BCB)\lib;D:\MakeDM\SUIPack.v5.8.Full.Source.Delphi.BCB\Source;D:\SoftWare\suipack-cb6皮肤\suipack\Source;D:\Sunisoft.SUIPack.v6.2\Source;E:\Sunisoft.SUIPack.v6.2\Source;C:\Program Files\Devart\ODAC for CBuilder 6\Lib;E:\FR4_7\Source;E:\FR4_7\FastScript
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl
+Item1=$(BCB)\source\vcl;E:\FR4_7\Source;E:\FR4_7\FastScript
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
